@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Cocktiles from "./components/Cocktiles";
 import About from "./components/About";
 import Art from "./components/Art";
+import Menu from "./components/Menu";
 
 gsap.registerPlugin(ScrollTrigger, ScrollTrigger);
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Cocktiles />
       <About />
       <Art />
+      <Menu />
     </main>
   );
 }
